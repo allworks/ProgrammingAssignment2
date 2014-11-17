@@ -11,7 +11,7 @@
 ## makeCacheMatrix
 ## input: a matrix
 ## return: a special "matrix object that can cache its inverse while providing
-##         four functions: getData, setData, setInverse, and getInverse
+##         four public functions: get, set, setInverse, and getInverse
 makeCacheMatrix <- function(x = matrix()) {
     
     # private fields
